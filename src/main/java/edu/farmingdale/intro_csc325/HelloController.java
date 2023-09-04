@@ -8,7 +8,9 @@ public class HelloController {
     private Label welcomeText;
 
     @FXML
+    //changed onHelloButtonClick
     protected void onHelloButtonClick() {
         welcomeText.setText("Welcome to Jashua Veerasammy!");
     }
+
 }
